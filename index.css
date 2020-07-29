@@ -1,0 +1,31 @@
+body {
+    margin: 15px;
+}
+
+@media (min-width: 1500px){
+    body{
+        font-size: 18px;
+    }
+}
+
+#navbar {
+    position: fixed;
+    background-color: aquamarine;
+}
+
+#nav-box {
+    background-color: blue;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+#topics {
+    background-color: blueviolet;
+    padding: ;
+}
+
+.main-section {
+    margin-top: 100px;
+    padding: 10px;
+}
