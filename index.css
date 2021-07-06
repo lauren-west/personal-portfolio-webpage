@@ -142,9 +142,16 @@ a:hover {
     font-size: 30px;
 }
 
-.img {
-    height: 45vh;
+.tiles-imgs {
+    object-position: center 5vw center;
+    display: flex;
+    justify-content: center; 
+
+    height: 25vw;
+    width: 25vw;
     width: auto;
+    height: auto;
+    
     border-radius: 50%;
     border: 10px solid #954F75;
 }
